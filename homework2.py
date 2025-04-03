@@ -8,6 +8,11 @@ while True:
      if (capital == "tokyo"):
       print("you are correct")
       break
-     else :
-      print("you are not correct")
-      
+     else:
+      attempt += 1
+      print(f"Incorrect city. Number of attempt {attempt}/{max_attempt}")
+     if  attempt == max_attempt:
+      print("Too many attempts. Your answer is wrong")
+     
+   
+    
